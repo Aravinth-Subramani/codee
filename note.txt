@@ -1,0 +1,163 @@
+Group moderator --2
+entries prob -- 6
+
+Fixed issues
+grop chat notification working fine
+
+
+Issues Now 
+group chat not clearing in notification screen but while creating a new notification clearing the old and new one displaied(all clering in firebase not in the screen)
+Entrie chat <<<<same issue>>>
+
+---entries--->ProjectActivity.arrayList.remove(i); (last one notification not clearing but go out and open again clearing it)
+---
+
+
+
+ProjectLevel
+prob entry normal---not clearing related notifications(clearing in database)
+group live normal code ---working fine
+task normal code--- working fine
+
+
+Response Test
+D/USERLEVEL: DataSnapshot { key = 25881, value = {projects={5061={-LukYy-YCoRYQsUgJuna={created_at=1574920250, task_id=16821, msg=notification response1, type=3, project_id=5061},
+ -LuhNQHLN0Nb172k1WuP={created_at=1574866892, task_id=16819, msg=notification response test, type=3, project_id=5061},
+ -LukW03OwJb0ZdGZFgnW={created_at=1574919476, task_id=16820, msg=notification response, type=3, project_id=5061}}, 
+5043={-Luh2DHIkwZShvF7mOW1={created_at=1574861334, task_id=16818, msg=Task1, type=3, project_id=5043},
+ -LsSEfFdhGW5fzZYfqIB={created_at=1572448678, task_id=16614, msg=This is a test, type=0, project_id=5043}, 
+-LsRyZfywi8z7lrMwHGj={created_at=1572444195, task_id=16614, msg=HI, type=0, project_id=5043}, 
+-LsRyo6CyMWvgnGVDRiJ={created_at=1572444258, task_id=16614, msg=HULO, type=0, project_id=5043}, 
+-LsRVfd7UKAzc7-GWoeV={created_at=1572436357, task_id=16614, msg=Thomas!!Shall we have a Tea??, type=0, project_id=5043}, 
+-LsSEiPEHgpV5Q1vS5Lu={created_at=1572448693, task_id=16614, msg=Trying one more time., type=0, project_id=5043}, 
+-LsRyxdCCf4-QbPMZx4p={created_at=1572444297, task_id=, msg=HI, type=7, project_id=5043},
+ -LsRVkeGkoSniEz8I1pW={created_at=1572436380, task_id=16614, msg=Why not??, type=0, project_id=5043},
+ -LsRVXhY1xcr4kbwDe3p={created_at=1572436320, task_id=16614, msg=Hello Thomas, type=0, project_id=5043}}}} }
+
+/UserWorkspaceLevel: DataSnapshot { key = 25881, value = {projects={5061={
+-LukYy-YCoRYQsUgJuna={created_at=1574920250, task_id=16821, msg=notification response1, type=3, project_id=5061},
+ -LuhNQHLN0Nb172k1WuP={created_at=1574866892, task_id=16819, msg=notification response test, type=3, project_id=5061},
+ -LukW03OwJb0ZdGZFgnW={created_at=1574919476, task_id=16820, msg=notification response, type=3, project_id=5061}}, 
+5043={-Luh2DHIkwZShvF7mOW1={created_at=1574861334, task_id=16818, msg=Task1, type=3, project_id=5043}, 
+-LsSEfFdhGW5fzZYfqIB={created_at=1572448678, task_id=16614, msg=This is a test, type=0, project_id=5043},
+ -LsRyZfywi8z7lrMwHGj={created_at=1572444195, task_id=16614, msg=HI, type=0, project_id=5043}, 
+-LsRyo6CyMWvgnGVDRiJ={created_at=1572444258, task_id=16614, msg=HULO, type=0, project_id=5043}, 
+-LsRVfd7UKAzc7-GWoeV={created_at=1572436357, task_id=16614, msg=Thomas!!Shall we have a Tea??, type=0, project_id=5043},
+ -LsSEiPEHgpV5Q1vS5Lu={created_at=1572448693, task_id=16614, msg=Trying one more time., type=0, project_id=5043}, 
+-LsRyxdCCf4-QbPMZx4p={created_at=1572444297, task_id=, msg=HI, type=7, project_id=5043}, 
+-LsRVkeGkoSniEz8I1pW={created_at=1572436380, task_id=16614, msg=Why not??, type=0, project_id=5043}, 
+-LsRVXhY1xcr4kbwDe3p={created_at=1572436320, task_id=16614, msg=Hello Thomas, type=0, project_id=5043}}}, 
+workspaces={3488={-LzGe8asQLzVkuHKwz5C={msg=ghm, type=2, created_at=1579770485, workspace_id=3488}}}} }
+
+23/1/2020 
+while create
+D/UserWorkspaceLevel: DataSnapshot { key = 25881, value = {
+projects={5061={
+-LukYy-YCoRYQsUgJuna={created_at=1574920250, task_id=16821, msg=notification response1, type=3, project_id=5061}, 
+-LuhNQHLN0Nb172k1WuP={created_at=1574866892, task_id=16819, msg=notification response test, type=3, project_id=5061},
+ -LukW03OwJb0ZdGZFgnW={created_at=1574919476, task_id=16820, msg=notification response, type=3, project_id=5061}}, 
+5043={-Luh2DHIkwZShvF7mOW1={created_at=1574861334, task_id=16818, msg=Task1, type=3, project_id=5043}, 
+-LsSEfFdhGW5fzZYfqIB={created_at=1572448678, task_id=16614, msg=This is a test, type=0, project_id=5043},
+ -LsRyZfywi8z7lrMwHGj={created_at=1572444195, task_id=16614, msg=HI, type=0, project_id=5043},
+ -LsRyo6CyMWvgnGVDRiJ={created_at=1572444258, task_id=16614, msg=HULO, type=0, project_id=5043},
+ -LsRVfd7UKAzc7-GWoeV={created_at=1572436357, task_id=16614, msg=Thomas!!Shall we have a Tea??, type=0, project_id=5043},
+ -LsSEiPEHgpV5Q1vS5Lu={created_at=1572448693, task_id=16614, msg=Trying one more time., type=0, project_id=5043}, 
+-LsRyxdCCf4-QbPMZx4p={created_at=1572444297, task_id=, msg=HI, type=7, project_id=5043},
+ -LsRVkeGkoSniEz8I1pW={created_at=1572436380, task_id=16614, msg=Why not??, type=0, project_id=5043},
+ -LsRVXhY1xcr4kbwDe3p={created_at=1572436320, task_id=16614, msg=Hello Thomas, type=0, project_id=5043}}},
+ workspaces={3488={
+-LzMpZMn6GpeJwWiagxI={msg=5, type=2, created_at=1579874139, workspace_id=3488},
+ -LzMm8T_E1ClzZ1zD5K4={msg=4, type=2, created_at=1579873243, workspace_id=3488}, 
+-LzMnf4LEcEougAAzW1u={msg=one, type=2, created_at=1579873642, workspace_id=3488},
+ -LzMm6JZbPKk7WKo13WN={msg=2, type=2, created_at=1579873234, workspace_id=3488}, 
+-LzMpBh212mndGi6kS2w={msg=4, type=2, created_at=1579874042, workspace_id=3488}, 
+-LzMmLlSzAL1vh-WhCdg={msg=6, type=2, created_at=1579873297, workspace_id=3488}, 
+-LzMmHUVBpN7wXpIs0J-={msg=5, type=2, created_at=1579873280, workspace_id=3488},
+ -LzMo4DXiC579PfWoOLl={msg=two, type=2, created_at=1579873750, workspace_id=3488},
+ -LzMm7GYkNofDnUDlQmg={msg=3, type=2, created_at=1579873238, workspace_id=3488}, 
+-LzMqgvkEi_65Cu0Q7ax={msg=6, type=2, created_at=1579874435, workspace_id=3488}, 
+-LzMoLnOxgke_25dgEez={msg=3, type=2, created_at=1579873822, workspace_id=3488}}}} }
+
+while enter
+/UserWorkspaceLevel: DataSnapshot { key = 24884, value = {
+-Ls-dIBpqJl_eLaZMHVr={created_at=1571968857, task_id=16535, msg=17, type=0, project_id=5038}, 
+-Ls-dDQF7WPrbSTNQxNi={created_at=1571968838, task_id=16535, msg=12, type=0, project_id=5038},
+ -Ls-dB4ngdj-6Wi9sQ5j={created_at=1571968828, task_id=16535, msg=3, type=0, project_id=5038}, 
+-Ls-dDgGCF8Ld7HgDnFR={created_at=1571968839, task_id=16535, msg=14, type=0, project_id=5038},
+ workspaces={
+3488={-LzMo4DG9RUqURIKzoH1={msg=two, type=2, created_at=1579873750, workspace_id=3488},
+ -LzMpBgmvKnN9jxw4EcJ={msg=4, type=2, created_at=1579874042, workspace_id=3488}, 
+-LzMnf46OY-jZPaBifNJ={msg=one, type=2, created_at=1579873642, workspace_id=3488}, 
+-LzMpZMY7N3bX-ZIx3yx={msg=5, type=2, created_at=1579874139, workspace_id=3488}, 
+-LzMoLn7DJAfvf5NI0cZ={msg=3, type=2, created_at=1579873822, workspace_id=3488}, 
+-LzMqgvQFTwzqIPQ7nrU={msg=6, type=2, created_at=1579874435, workspace_id=3488}}}, 
+-Ls-dIJzDogUEtlzpueu={created_at=1571968858, task_id=16535, msg=18, type=0, project_id=5038}, 
+-Ls-dBZy0pArSCaF-ZgT={created_at=1571968830, task_id=16535, msg=5, type=0, project_id=5038},
+ -Ls-dIUJ2-K1-Kwu1p1X={created_at=1571968859, task_id=16535, msg=19, type=0, project_id=5038}, 
+-Ls-dI5vbzIJaNeMNYgp={created_at=1571968857, task_id=16535, msg=16, type=0, project_id=5038},
+ -Ls-dDXkD94DvRx3cokR={created_at=1571968838, task_id=16535, msg=13, type=0, project_id=5038}, 
+-Ls-dIe4RQaQiUfMs7zY={created_at=1571968859, task_id=16535, msg=20, type=0, project_id=5038}, 
+projects={4930={-Lu0gT72q89sacQKhNZA={msg=s, type=1, created_at=1574133944, project_id=4930}},
+ 5098={-Lz4BIHmUaT7e0ySE6AW={created_at=1579561273, task_id=17063, msg=jljljl, type=3, project_id=5098}, 
+-Lz4AtrRXCRmoLea123M={created_at=1579561169, task_id=17061, msg=ddd, type=3, project_id=5098}, 
+-Lz4Cn1ndfTNTh8qj6UX={created_at=1579561665, task_id=17065, msg=jlkjlkjlkjljljl8, type=3, project_id=5098},
+ -Lz4A4Mrg-qs_hww5-Vu={created_at=1579560954, task_id=17059, msg=test 6, type=3, project_id=5098}, 
+-Lz4B1q_D86PrNPKNN5B={created_at=1579561206, task_id=17062, msg=lll, type=3, project_id=5098}, 
+-Lz4AjUe8b9rL4iTIlAY={created_at=1579561127, task_id=17060, msg=t7, type=3, project_id=5098}}, 
+5058={-LurtfqMa7xiHKCxRnmi={created_at=1575043383, task_id=16908, msg=dave3333333, type=3, project_id=5058},
+ -LtlEwzgWYCrYtkZ2ALf={created_at=1573858037, task_id=16734, msg=yo, type=3, project_id=5058}, 
+-LuVLV4EPAG9EqAQa4pA={created_at=1574648283, task_id=16755, msg=lkjlkj, type=3, project_id=5058}, 
+-LumjjcdquW0MoSwBiEg={created_at=1574956891, task_id=16858, msg=aabab, type=3, project_id=5058}, 
+-LurtJwCF6TuC4NOmX6H={created_at=1575043289, task_id=16906, msg=jkhkh, type=3, project_id=5058}, 
+-LuY2xDSmJ1NnX_m3b3d={created_at=1574693754, task_id=16781, msg=jllj, type=3, project_id=5058},
+ -LtegLlsFmDbUryl1vaO={created_at=1573748043, task_id=16723, msg=hkk, type=3, project_id=5058},
+ -LtefuFQWkNIQQ3uKI9p={created_at=1573747926, task_id=16722, msg=test 2, type=3, project_id=5058},
+ -LumjwaTV9PMNNWSh2De={created_at=1574956944, task_id=16859, msg=nmnmnmn, type=3, project_id=5058}, 
+-Lumj_FrX8_fouJBN6LA={created_at=1574956848, task_id=16857, msg=k;k, type=3, project_id=5058}, 
+-LtzTlrJXe5kK_esqesc={created_at=1574096805, task_id=16738, msg=asd, type=3, project_id=5058},
+ -LuY2sfDKtXeeqLh2oMo={created_at=1574693735, task_id=16780, msg=jlj, type=3, project_id=5058},
+ -LuVL2CthEaQ3ED8U82J={created_at=1574648165, task_id=16754, msg=ioipipipi, type=3, project_id=5058},
+ -LuY2cUFhKMG_iRINOuZ={created_at=1574693669, task_id=16779, msg=knn8, type=3, project_id=5058}},
+ 5066={-Lz7Z_egU1tIrGjzSF4y={created_at=1579618033, task_id=16823, msg=akd, type=0, project_id=5066},
+ -LvP5G_OgqHbzvfGoiPu={created_at=1575617109, task_id=16823, msg=hi, type=0, project_id=5066}, 
+-LzMeJzviIj5aIwTVkDV={created_at=1579871189, task_id=16823, msg=test, type=0, project_id=5066}, 
+-LzMihka6997g6lho5L7={created_at=1579872343, task_id=16823, msg=a, type=0, project_id=5066}, 
+-Lz7ZeIb_R1MbBxGNaor={created_at=1579618052, task_id=16823, msg=sdjknf, type=0, project_id=5066}, 
+-LzMit3Y4wKEkS7o7WFY={created_at=15798
+
+
+ for (Notification count : arrayList) {
+//
+//                                            for (int k = 0; k < arrayList.size(); k++) {
+//                                                if (k == (arrayList.size()-1)) {
+//                                                    ArrayList<Notification> arrayListLast = new ArrayList<>();
+
+//                                                    if(type == 2) {
+////                                                        arrayListLast = new ArrayList<>();
+//                                                        arrayListLast.add(count);
+//                                                    }else if(type ==6){
+//                                                        arrayListLast = new ArrayList<>();
+//                                                        arrayListLast.add(count);
+//                                                    }
+//                                    if(type == 2) {
+//                                        counter = arrayList2.get(arrayList2.size() - 1);
+//                                    }else if(type == 6){
+//                                        counter = arrayList6.get(arrayList6.size() - 1);
+//                                    }
+//                                    arrayListwork.add(counter);
+//                                    Log.d("Arraylist",arrayListwork.toString());
+//                                                    CommonNotification.getInstance(ProjectActivity.this).setNotificationslist(arrayListwork);
+//                                                }
+//                                            }
+//                                    }
+//                                    Log.d("arrrray",arrayList2.toString());
+//                                    Log.d("arrrray6",arrayList.toString());
+//                                    if(arrayList.size() != 0 ) {
+//                                        arrayListwork.add(arrayList.get(arrayList.size() - 1));
+//                                        CommonNotification.getInstance(ProjectActivity.this).setNotificationslist(arrayListwork);
+//                                    }
+//                                    if (arrayList.size() != 0) {
+//                                        arrayListwork.add(arrayList.get(arrayList.size() - 1));
+//                                        CommonNotification.getInstance(ProjectActivity.this).setNotificationslist(arrayListwork);
+//                                    }
+//                                    arrayListwork1.add(arrayListwork.get(0));
